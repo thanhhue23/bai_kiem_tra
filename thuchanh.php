@@ -31,7 +31,7 @@ echo "Bài 2. Thông tin của tất cả sản phẩm: <br>";
 foreach ($products as $key => $product) {
     echo "Product ID: " . $key . "<br>";
     echo "Name: " . $product['name'] . "<br>";
-    echo "Price: $" . $product['price'] . "<br>";
+    echo "Price: " . $product['price'] . "<br>";
     echo "Quantity: " . $product['quantity'] . "<br>";
     echo "<br>";
 }
@@ -44,5 +44,5 @@ function tongGiatri($products) {
     return $sum;
 }
 $sum = tongGiatri($products);
-echo "Tổng giá trị của tất cả sản phẩm: $" . $sum . "\n";
+echo "Tổng giá trị của tất cả sản phẩm: " . $sum";
 ?>
