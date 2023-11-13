@@ -44,5 +44,5 @@ function tongGiatri($products) {
     return $sum;
 }
 $sum = tongGiatri($products);
-echo "Tổng giá trị của tất cả sản phẩm: " . $sum";
+echo "Tổng giá trị của tất cả sản phẩm: " . $sum;
 ?>
